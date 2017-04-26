@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>麦子后台管理</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	</head>
+	<body>
+		<!-- Fixed navbar -->
+		<div class="content-nav">
+	    <nav class="navbar navbar-default navbar-fixed-top">
+	      <div class="container">
+	        <div class="navbar-header">
+	          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+	            <span class="sr-only">Toggle navigation</span>
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	          </button>
+	          <a class="navbar-brand" href="#">Maizi Admin</a>
+	        </div>
+	        <div id="navbar" class="navbar-collapse collapse">
+	          <ul class="nav navbar-nav">
+	            <li class="active"><a href="index.html"><i class="glyphicon glyphicon-home"></i>后台首页</a></li>
+	            <li><a href="user-manage.html"><i class="glyphicon glyphicon-user"></i>用户管理</a></li>
+	            <li><a href="content-manage-two.html"><i class="glyphicon glyphicon-list-alt"></i>内容管理</a></li>
+	            <li><a href="tag.html"><i class="glyphicon glyphicon-tag"></i> 标签管理</a></li>
+	          </ul>
+	          <ul class="nav navbar-nav navbar-right">
+	            <li class="dropdown">
+	              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">admin <span class="caret"></span></a>
+	              <ul class="dropdown-menu">
+	                <li><a href="#">Action</a></li>
+	                <li><a href="#">Another action</a></li>
+	                <li><a href="#">Something else here</a></li>
+	                <li role="separator" class="divider"></li>
+	                <li class="dropdown-header">Nav header</li>
+	                <li><a href="#">Separated link</a></li>
+	                <li><a href="#">One more separated link</a></li>
+	              </ul>
+	            </li>
+	            <li><a href="../navbar-static-top/"><i class="glyphicon glyphicon-off"></i>退出</a></li>
+	          </ul>
+	        </div><!--/.nav-collapse -->
+	      </div>
+	    </nav>
+	    </div>
+	    <div class="bug-box">
+	    	<div class="container">
+		    	<div class="jumbotron">
+			        <h3>网站程序有漏洞，急需修复！</h3>
+			        <p>当前版本程序(V1.22存在严重安全问题，容易遭受攻击，请即刻修复!)</p>
+			        <p>
+			          <a class="btn btn-danger" href="#" role="button">立即修复</a>
+			          <a class="btn btn-default" href="#">稍后处理</a>
+			        </p>
+			    </div>
+		    </div>
+	    </div>
+		
+		<div class="table-box">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-sm-12">
+						<div class="table-out">												
+						<div class="title">网站数据统计</div>
+						<table class="table table-striped">
+					      <thead>
+					        <tr>
+					          <th>统计项目</th>
+					          <th>今日</th>
+					          <th>昨日</th>  
+					        </tr>
+					      </thead>
+					      <tbody>
+					        <tr>
+					          <th scope="row">注册会员</th>
+					          <td>200</td>
+					          <td>400</td>  
+					        </tr>
+					        <tr>
+					          <th scope="row">登录会员</th>
+					          <td>4060</td>
+					          <td>5200</td> 
+					        </tr>
+					        <tr>
+					          <th scope="row">今日发帖</th>
+					          <td>5300</td>
+					          <td>6723</td> 
+					        </tr>
+					         <tr>
+					          <th scope="row">转载次数</th>
+					          <td>2001</td>
+					          <td>5644</td> 
+					        </tr>
+					      </tbody>
+					    </table>
+					</div>
+					</div>
+					<div class="col-md-6 col-sm-12">	
+						<div class="table-out">												
+							<div class="title">网站热帖</div>
+							<table class="table table-condensed" id="specil-table">
+						      <thead>
+						        <tr>
+						         	<td><i class="glyphicon glyphicon-list-alt"></i>泛Mooc职业教育，就业和结果为王</td>
+						         	<td>2017/04/25</td>
+						        </tr>
+						      </thead>
+						      <tbody>
+						        <tr>
+						            <td><i class="glyphicon glyphicon-list-alt"></i>泛Mooc职业教育，就业和结果为王</td>
+						            <td>2017/04/25</td> 
+						        </tr>
+						        <tr>
+						            <td><i class="glyphicon glyphicon-list-alt"></i>泛Mooc职业教育，就业和结果为王</td>
+						            <td>2017/04/25</td>
+						        </tr>
+						        <tr>
+						            <td><i class="glyphicon glyphicon-list-alt"></i>泛Mooc职业教育，就业和结果为王</td>
+						         	<td>2017/04/25</td>
+						        </tr>
+						        <tr>
+						            <td><i class="glyphicon glyphicon-list-alt"></i>泛Mooc职业教育，就业和结果为王</td>
+						         	<td>2017/04/25</td>
+						        </tr>
+						        <tr>
+						            <td><i class="glyphicon glyphicon-list-alt"></i>泛Mooc职业教育，就业和结果为王</td>
+						         	<td>2017/04/25</td>
+						        </tr>
+						      </tbody>
+						    </table>
+						</div>
+					</div>
+				</div>
+			
+				<div class="row">
+					<div class="col-md-6 col-sm-12">
+						<div class="table-out">												
+							<div class="title">今日访客统计</div>	
+							<table class="table" id="visitor"></table>
+						</div>
+					</div>
+					<div class="col-md-6 col-sm-12">
+						<div class="table-out">
+							<div class="title">服务器状态</div>
+							<p class="using-rate">内存使用率40%</p>
+							<div class="progress progress-striped">
+							   <div class="progress-bar progress-bar-success" role="progressbar" 
+							      aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" 	
+							      style="width: 40%;">
+							      <span class="sr-only">90% 完成（成功）</span>
+							   </div>
+							</div>
+							<p class="using-rate">数据库使用率20%</p>
+							<div class="progress progress-striped">
+							   <div class="progress-bar progress-bar-info" role="progressbar" 
+							      aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" 	
+							      style="width: 20%;">
+							      <span class="sr-only">30% 完成（信息）</span>
+							   </div>
+							</div>
+							<p class="using-rate">硬盘使用率60%</p>
+							<div class="progress progress-striped">
+							   <div class="progress-bar progress-bar-warning" role="progressbar" 
+							      aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" 
+							      style="width: 60%;">
+							      <span class="sr-only">20% 完成（警告）</span>
+							   </div>
+							</div>
+							<p class="using-rate">CPU使用率80%</p>
+							<div class="progress progress-striped">
+							   <div class="progress-bar progress-bar-danger" role="progressbar" 
+							      aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" 	
+							      style="width: 80%;">
+							      <span class="sr-only">10% 完成（危险）</span>
+							   </div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		<div class="messageboard">
+			<div class="container">
+				<div class="table-out">												
+					<div class="title">团队留言板</div>
+						<div class="row">
+							<div class="col-md-7 col-sm-12">
+								<ul class="media-list">
+								   <li class="media">
+								      <a class="pull-left" href="#">
+								         <img class="media-object" src="img/images/pc_03.png" 
+								         alt="通用的占位符图像">
+								      </a>
+								      <div class="media-body">
+								         <h4 class="media-heading">卓大哥</h4>
+								         <p>
+								         	技术大哥，今晚请把网站程序升级一下哈，现在的系统有漏洞，安全起见
+								         </p>
+								      </div>
+								   </li>
+								   <li class="media">
+								      <a class="pull-right" href="#">
+								         <img class="media-object" src="img/images/pc_07.png" 
+								         alt="通用的占位符图像">
+								      </a>
+								      <div class="media-body right-media">
+								         <h4 class="media-heading">技术大哥</h4>
+								         	收到，今晚2点准时升级
+								      </div>
+								   </li>
+								   <li class="media">
+								      <a class="pull-right" href="#">
+								         <img class="media-object" src="img/images/pc_07.png" 
+								         alt="通用的占位符图像">
+								      </a>
+								      <div class="media-body right-media">
+								         <h4 class="media-heading">技术大哥</h4>
+								                  你先在站点发布一下通知哈
+								      </div>
+								   </li>
+								   
+								   <li class="media">
+								      <a class="pull-left" href="#">
+								         <img class="media-object" src="img/images/pc_03.png" 
+								         alt="通用的占位符图像">
+								      </a>
+								      <div class="media-body">
+								         <h4 class="media-heading">媒体标题</h4>
+								         <p>
+								         	好勒。
+								         </p>
+								      </div>
+								   </li>
+								</ul>
+							</div>
+							<div class="col-md-5 col-sm-12">	
+								<div class="shortmessage">
+									<b>输入留言内容</b>
+									<div><textarea rows="5" placeholder="请输入留言内容"></textarea></div>
+									<button class="btn btn-default">留言</button>
+									<div class="table-out" id="tel">												
+									<div class="title">团队联系手册</div>
+									<table class="table table-bordered">
+								      <thead>
+								        <tr>
+								          	<td>站长(李小龙)：13134848615</td> 
+								        </tr>
+								      </thead>
+								      <tbody>
+								        <tr>
+								          <td>站长(李小龙)：13134848615</td>   
+								        </tr>
+								        <tr>
+								          <td>站长(李小龙)：13134848615</td> 
+								        </tr>
+								        <tr>
+								          <td>站长(李小龙)：13134848615</td>
+								        </tr>
+								         <tr>
+								          <td>站长(李小龙)：13134848615</td>
+								        </tr>
+								      </tbody>
+								    </table>
+								</div>
+								</div>		
+							</div>
+						</div>
+				</div>	
+			</div>
+		</div> 	
+		
+		<footer class="footer">
+			<p>Copyright&copy;2015-2017 www.maizidu.com 蜀ICP备21929076号-4</p>
+		</footer>
+		<script type="application/javascript" src="js/jquery.1.12.js"></script>
+		<script language="JavaScript" src="js/bootstrap.min.js"></script>
+	</body>
+</html>

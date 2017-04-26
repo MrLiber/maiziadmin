@@ -1,0 +1,447 @@
+.glyphicon {
+	margin-right: 8px;
+}
+
+.jumbotron {
+	background: #f2dede;
+	margin-top: 80px;
+	border: 1px #ebccd1 solid;
+	color: #a94442;
+}
+
+.table-out {
+	border: 1px #dddddd solid;
+	margin-bottom: 20px;
+}
+
+.title {
+    padding: 8px;
+    color: #000;
+    background: #f5f5f5;
+    border-bottom: 1px #ddd solid;
+}
+
+.table-box .table {
+	margin-top: 20px;
+	margin-left: 2%;
+	width: 96%;
+}
+
+#specil-table {
+	width: 100%;
+	margin-bottom: 0;
+	margin-top: 0;
+	margin-left: 0;
+	color: #337ab7;
+}
+
+#specil-table td {
+	padding: 10px 6px;
+}
+
+#visitor {
+	height: 210px;
+}
+
+.progress {
+	margin: 0 10px 10px 10px;
+}
+
+.using-rate {
+	margin-top: 10px;
+	padding-left: 10px;
+}
+
+.media-list {
+	margin-top: 20px;
+	margin-left: 10px;
+}
+
+.media {
+	background:#f5f5f5;
+	padding: 20px;
+	border: 1px #ddd solid;
+	border-radius: 4px;
+	margin-top: 20px;	
+}
+
+.right-media {
+	text-align: right;
+}
+
+.shortmessage {
+	margin: 2%;
+	width: 90%;
+	height: auto;
+	margin-top: 20px;
+}
+
+.shortmessage textarea {
+	width: 100%;
+	margin-top: 10px;
+}
+
+.shortmessage .btn-default {
+	margin-top: 20px;
+}
+
+#tel {
+	margin-top: 20px;
+}
+
+.messageboard .table-bordered {
+	border: 1px #ddd solid;
+	margin: 2%;
+	width: 96%;
+	margin-bottom: 20px;	
+}
+
+footer{
+	text-align: center;
+	height: 60px;
+	line-height: 60px;
+}
+
+/*tag标签管理页面*/
+.tag-nav .navbar-default {
+    border-color: #2ca3e7;
+    background: #2ca3e7;    
+}
+
+.tag-nav .navbar-default .navbar-brand {
+    color: #fff;
+}
+
+.tag-nav .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #000;
+    background-color: #178acc;
+}
+
+.tag-nav .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #fff;
+    background-color: #178acc;
+}
+
+.tag-nav .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: #178acc;
+}
+
+.tag-nav .navbar-default .navbar-toggle {
+    border-color: #178acc;
+}
+
+.tag-nav .navbar-default .navbar-nav > li > a {
+    color: #fff;
+}
+
+.tag-nav .navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.tag-title {
+	margin-top: 70px;		
+}
+
+.tag-title p {
+	color: #317eac;
+	font-size: 18px;
+	padding: 12px 0;
+	border-bottom: 1px #eeeeee solid;
+}
+
+.tag-title input {
+	width: 100%;
+	height: 33px;
+	outline: 0;
+	border: 1px #ccc solid;
+	border-radius: 4px;
+}
+
+.tag-title .btn-default {
+	margin-top: 16px;
+	background: #d9edf7;
+	border: 1px #bce8f1 solid;
+	color: #3a87ad;
+}
+
+/*文章管理页面*/
+#addbtn {
+	margin: 0;
+}
+
+.content-main {
+	margin-top: 60px;
+}
+
+.content-main h5 {
+	border-bottom: 1px #eee solid;
+	padding: 10px 0;
+}
+
+.content-main .nav-tabs {
+	text-align: center;	
+}
+
+.firstli {
+	border: 1px #ddd solid;
+	border-bottom: 0;
+	border-radius: 4px;
+}
+
+.nav-tabs > li > a {  
+	margin-right: 0; 
+    line-height: 1.42857143;
+    border-radius: 4px 4px 0 0;
+}
+
+#myNav {
+	margin-top: 14px;
+}
+
+.content-main .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    color: #fff;
+    cursor: default;
+    text-align: center;
+    background-color: #337ab7;
+    border: 1px solid #ddd;
+    border-bottom-color: transparent;
+    border-radius: 4px;
+}
+
+.content-main .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    color: #fff;
+    cursor: default;
+    text-align: center;
+    background-color: #337ab7;
+    border: 1px solid #ddd;
+    border-bottom-color: transparent;
+    border-radius: 4px;
+}
+
+.content-main .nav-tabs > li.active > a:focus {
+    color: #fff;
+    cursor: default;
+    text-align: center;
+    background-color: #337ab7;
+    border: 1px solid #ddd;
+    border-bottom-color: transparent;
+    border-radius: 4px;
+}
+
+.content-main .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    color: #fff;
+    cursor: default;
+    text-align: center;
+    background-color: #337ab7;
+    border: 1px solid #ddd;
+    border-bottom-color: transparent;
+    border-radius: 4px;
+}
+
+.content-main .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    color: #fff;
+    cursor: default;
+    text-align: center;
+    background-color: #337ab7;
+    border: 1px solid #ddd;
+    border-bottom-color: transparent;
+    border-radius: 4px;
+}
+
+.content-main input[type="text"] {
+	width: 100%;
+	border: 1px #ccc solid;
+	padding-left: 10px;
+	outline: 0;
+	height: 30px;
+	border-radius: 4px;
+}
+
+.content-main textarea {
+	width: 100%;
+	padding-left: 10px;
+	border-color: #ccc;
+	border-radius: 4px;
+}
+
+.content-main p {
+	margin-top: 14px;
+}
+
+#sub-article {
+	text-align: right;
+}
+
+#sub-article .btn {
+	background: #fff;
+	border: 1px #ccc solid;
+}
+
+.content-two .btn{
+	background: #fff;
+	border: 1px #ccc solid;
+}
+
+#page-btns {
+	text-align: right;
+}
+
+/*用户管理页面*/
+
+.user-body {
+	background: #272b30;
+	color: #c8c8c8;
+}
+
+.user-body .navbar-default {
+    background-color: #3f454b;
+    border-color: #17191b;   
+} 
+
+.user-body .navbar-default .navbar-nav > li > a {
+    color: #fff;
+}
+
+.user-body .navbar-default .navbar-brand {
+    color: #fff;
+}
+
+.user-body .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #fff;
+    background-color: transparent;
+}
+
+.user-body .tag-title .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+    color: #fff;
+    background-color: transparent;
+}
+
+.user-body .content-main .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    color: #fff;
+    cursor: default;
+    text-align: center;
+    background-color: #3e444c;
+    border: 1px solid #000;
+    border-bottom-color: transparent;
+    border-radius: 4px;
+}
+
+.user-body .firstli a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.user-body .nav-tabs > li > a:hover {
+    border-color: #eee #eee #ddd;
+}
+
+.user-body .nav > li > a:hover, .nav > li > a:focus {
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.user-body a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.user-body .nav > li > a:hover, .nav > li > a:focus {
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.user-body .user-main .btn {
+    background: #454b52;
+    border: 1px #17191b solid;
+    color: #fff;
+}
+
+.user-body .table > thead > tr > th {
+    border-bottom: 2px solid #000;
+}
+
+.user-body .table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+	border-top: 1px solid #000;
+}
+
+.user-body .pagination > li > a, .pagination > li > span {
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    margin-left: -1px;
+    line-height: 1.42857143;
+    color: #fffff0;
+    text-decoration: none;
+    background-color: #41474d;
+    border: 1px solid #17191b;
+}
+
+.user-body .pagination > .active {
+	background: #131415;
+}
+
+.user-body .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #fff;
+    background-color: #272b2e;
+}
+
+.user-body .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #fff;
+    background-color: #272b2e;
+}
+
+.user-main .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    color: #fff;
+    cursor: default;
+    text-align: center;
+    background-color: #3e444c;
+    border: 1px solid #ddd;
+    border-bottom-color: transparent;
+    border-radius: 4px;
+}
+
+.user-main .nav-tabs {
+    border-bottom: 1px solid #000;
+}
+
+.user-main h5 {
+    border-bottom: 1px #000 solid;
+}
+
+.user-main .firstli {
+    border: 1px #000 solid;
+    border-bottom: 0;
+    border-radius: 4px;
+}
+
+.user-body .nav-tabs > li > a:hover {
+    border-color: #000 #000 #000;
+}
+
+.user-body .pagination > .active > a {
+	background: #121315;
+	border-color: #000;
+}
+
+.user-body .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #fff;
+    background-color: #272b2e;
+}
+
+
+.content-nav  .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #333;
+    background-color: #e7e7e7;
+}
+
+.tag-nav .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #fff;
+    background-color: #178acc;
+}
+
+@media (max-width:768px){
+	#addbtn {
+		margin-top: 10px;
+	}
+	
+}
