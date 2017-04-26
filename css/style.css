@@ -439,13 +439,43 @@ footer{
     background-color: #178acc;
 }
 
+.tag-nav .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+    color: #fff;
+    background-color: #178acc;
+}
+
+.tag-nav .navbar-default .navbar-nav > .open > a:focus {
+    color: #fff;
+    background-color: transparent;
+}
+
 .content-nav .navbar-default .navbar-toggle:focus {
+    background-color: #ddd;
+}
+
+.content-nav .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+    color: #555;
     background-color: #ddd;
 }
 
 .user-body .navbar-default .navbar-toggle:focus {
     background-color: #3f444a;
-    border: 1px #000000 solid;
+    border: 1px #000 solid;
+}
+
+.user-nav .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+    color: #fff;
+    background-color: transparent;
+}
+
+.user-nav .navbar-default .navbar-nav > .open > a:focus {
+    color: #fff;
+    background-color: transparent;
+}
+
+.content-nav .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+    color: #000;
+    background-color: transparent;
 }
 
 @media (max-width:768px){
