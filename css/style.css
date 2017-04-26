@@ -439,9 +439,17 @@ footer{
     background-color: #178acc;
 }
 
+.content-nav .navbar-default .navbar-toggle:focus {
+    background-color: #ddd;
+}
+
+.user-body .navbar-default .navbar-toggle:focus {
+    background-color: #3f444a;
+    border: 1px #000000 solid;
+}
+
 @media (max-width:768px){
 	#addbtn {
 		margin-top: 10px;
-	}
-	
+	}	
 }
